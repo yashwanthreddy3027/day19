@@ -1,0 +1,471 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<style>
+    .md{
+         border: 2px solid rgb(94, 92, 92);
+        height: 900px;
+        width: 350px;
+    overflow-y: scroll;
+    margin-top: 30px;
+    
+    }
+    .md::-webkit-scrollbar{
+        display: none;
+       
+    }
+    .cd1{
+        position: fixed;
+        border: 2px solid rgb(43, 42, 42) ;
+        height: 40px;
+        width: 350px;
+        text-align: center;
+        background-color:rgb(42, 133, 62);
+    }
+   
+    .img1{
+       height: 40px;
+       width: 40px;
+       border-radius: 100%;
+       margin-left: 10px;
+       text-align: center;
+
+    }.img2{
+        height: 40px;
+        width: 30px;
+        margin-left: 25px;    
+    }
+    
+    .img4{
+        height: 40px;
+        width: 30px;
+        margin-left: 5px;
+
+    }
+    .cd2{
+    position: sticky;
+    top: 60px;
+      border: 2px solid;
+      height: 25px;
+      width: 70px;
+      margin-left: 110px;
+      border-radius: 20px;
+      text-align: center;
+      background-color:rgb(153, 150, 150);
+    }
+    
+    .cd3{
+        border: 2px solid ;
+        height: 20px;
+        width: 60px;
+        top: 70px;
+        margin-left: 280px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(64, 231, 64);
+        
+    }
+    .cd4{
+        border: 2px solid ;
+        height: 20px;
+        width: 80px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(174, 182, 189);
+        
+    }
+    .cd5{
+        border: 2px solid ;
+        height: 20px;
+        width: 110px;
+        margin-left: 230px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(64, 231, 64);
+        
+    }
+    .cd6{
+        border: 2px solid;
+        height: 40px;
+        width: 130px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: center;
+        background-color: rgb(174, 182, 189);
+
+    }
+    .cd7{
+        border: 2px solid ;
+        height: 20px;
+        width: 110px;
+        margin-left: 230px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(64, 231, 64);
+    }
+    .cd8{
+        border: 2px solid ;
+        height: 40px;
+        width: 110px;
+        margin-left: 230px;
+        border-radius: 10px;
+        text-align: right;
+        background-color: rgb(64, 231, 64);
+     }
+      .cd10{
+        border: 2px solid;
+        height: 40px;
+        width: 130px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: center;
+        background-color: rgb(174, 182, 189);  
+    } 
+    .cd11{
+        border: 2px solid ;
+        height: 40px;
+        width: 130px;
+        margin-left: 210px;
+        border-radius: 10px;
+        text-align: start;
+        background-color: rgb(64, 231, 64);
+    }
+   .cd12{
+    border: 2px solid;
+        height: 30px;
+        width: 130px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: start;
+        background-color: rgb(174, 182, 189);
+   }
+   .cd13{
+    border: 2px solid ;
+        height: 30px;
+        width: 130px;
+        margin-left: 210px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(64, 231, 64);
+   }
+   .cd14{
+    border: 2px solid;
+        height: 40px;
+        width: 110px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: start;
+        background-color: rgb(174, 182, 189);
+   }
+   .cd15{
+    border: 2px solid ;
+        height: 40px;
+        width: 130px;
+        margin-left: 210px;
+        border-radius: 10px;
+        text-align: start;
+        background-color: rgb(64, 231, 64);
+   }
+   .cd16{
+    border: 2px solid;
+        height: 40px;
+        width: 120px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: start;
+        background-color: rgb(174 182, 189);
+   }
+   .cd17{
+    border: 2px solid;
+    height: 40px;
+    width: 190px;
+    margin-left: 150px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: rgb(64, 231, 64);
+
+   }
+   .cd18{
+    border: 2px solid;
+        height: 35px;
+        width: 150px;
+        flex-wrap: wrap;
+        border-radius:10px ;
+        text-align: center;
+        background-color: rgb(174 182, 189);
+   }
+   .cd19{
+    border: 2px solid;
+    height: 20px;
+    width: 120px;
+    margin-left: 220px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: rgb(64, 231, 64);
+}
+
+.bx-left-arrow-alt{
+    font-size: 30px;
+    margin-left: -10px;
+    
+}
+.bxs-phone-call{
+    font-size: 35px;
+    margin-left: 70px;
+}
+
+
+
+
+</style>
+<body>
+    <div class="md">
+        <div class="cd1">
+        <i class='bx bx-left-arrow-alt'></i>  
+        <img class="img1" src="./images/prabhasimg.jpg" > YASHU
+        <i class='bx bxs-phone-call'></i>
+        <img class="img2" src="./images/videoicon.webp">
+        <img  class="img4" src="./images/options-vertical-svgrepo-com.svg">
+        </div > <br>
+        <br>
+        <br>
+        <!-- <div style="position: absolute;left: 300px;"> -->
+        <div class="cd2"> thrusday
+        </div>
+        <br>
+        <br>
+        <div class="cd3">HI
+            <i class='bx bx-check-double'></i>
+        </div>
+        <br>
+        <div class="cd4">HELLO
+        <i class='bx bx-check-double'></i>   
+        </div>
+        <br>
+        <div class="cd5"> How Are You
+        <i class='bx bx-check-double'></i>    
+        </div>
+        <br>
+        <div class="cd6">Iam good 
+            what about u
+            <i class='bx bx-check-double'></i>        
+        </div>
+        <br>
+        <div class="cd7">I am fine 
+            <i class='bx bx-check-double'></i>     
+        </div>
+        <br>
+        <div class="cd8">Any plans after Btech
+            <i class='bx bx-check-double'></i> 
+        </div>
+        <div class="cd2">friday
+        </div>
+        <br>
+        <br>
+        <div class="cd10">I have to learn tech courses
+            <i class='bx bx-check-double'></i>
+        </div>
+        <br>
+        <div class="cd11"> why did you choose this institute
+            <i class='bx bx-check-double'></i>
+        </div>
+        <br>
+        <div class="cd12"> which institute
+            <i class='bx bx-check-double'></i>    
+        </div>
+        <br>
+        <div class="cd13">10000 coders
+            <i class='bx bx-check-double'></i>  
+        </div>
+        <br>
+        <div class="cd14">which courses they teach
+            <i class='bx bx-check-double'></i> 
+        </div>
+        <br>
+        <div class="cd15">They mainly focuse on front end
+            <i class='bx bx-check-double'></i>    
+        </div>
+        <br>
+        <div class="cd16">ok then what about backend
+            <i class='bx bx-check-double'></i> 
+        </div>
+        <br>
+        <div class="cd17">After get perfect in frontend then they teach backend
+            <i class='bx bx-check-double'></i>
+        </div>
+        <br>
+         <div class="cd18">That's good Ok.I will Meet u Soon Bye
+            <i class='bx bx-check-double'></i>
+             </div>
+             <br>
+             <div class="cd19">Take Care Bye
+                <i class='bx bx-check-double'></i>
+             </div>
+             <br>
+             <div class="cd20"></div>
+             <div class="cd2"> saturday
+            </div>
+            <br>
+            <br>
+            <div class="cd3">HI
+                <i class='bx bx-check-double'></i>
+            </div>
+            <br>
+            <div class="cd4">HELLO
+            <i class='bx bx-check-double'></i>   
+            </div>
+            <br>
+            <div class="cd5"> How Are You
+            <i class='bx bx-check-double'></i>    
+            </div>
+            <br>
+            <div class="cd6">Iam good 
+                what about u
+                <i class='bx bx-check-double'></i>        
+            </div>
+            <br>
+            <div class="cd7">I am fine 
+                <i class='bx bx-check-double'></i>     
+            </div>
+            <br>
+            <div class="cd8">Any plans after Btech
+                <i class='bx bx-check-double'></i> 
+            </div>
+            <div class="cd2">sunday 
+            </div>
+            <br>
+            <br>
+            <div class="cd10">I have to learn tech courses
+                <i class='bx bx-check-double'></i>
+            </div>
+            <br>
+            <div class="cd11"> why did you choose this institute
+                <i class='bx bx-check-double'></i>
+            </div>
+            <br>
+            <div class="cd12"> which institute
+                <i class='bx bx-check-double'></i>    
+            </div>
+            <br>
+            <div class="cd13">10000 coders
+                <i class='bx bx-check-double'></i>  
+            </div>
+            <br>
+            <div class="cd14">which courses they teach
+                <i class='bx bx-check-double'></i> 
+            </div>
+            <br>
+            <div class="cd15">They mainly focuse on front end
+                <i class='bx bx-check-double'></i>    
+            </div>
+            <br>
+            <div class="cd16">ok then what about backend
+                <i class='bx bx-check-double'></i> 
+            </div>
+            <br>
+            <div class="cd17">After get perfect in frontend then they teach backend
+                <i class='bx bx-check-double'></i>
+            </div>
+            <br>
+             <div class="cd18">That's good Ok.I will Meet u Soon Bye
+                <i class='bx bx-check-double'></i>
+                 </div>
+                 <br>
+                 <div class="cd19">Take Care Bye
+                    <i class='bx bx-check-double'></i>
+                 </div>
+                 <br>
+                 <div class="cd20"></div>
+                 <div class="cd2"> yesterday
+                </div>
+                <br>
+                <br>
+                <div class="cd3">HI
+                    <i class='bx bx-check-double'></i>
+                </div>
+                <br>
+                <div class="cd4">HELLO
+                <i class='bx bx-check-double'></i>   
+                </div>
+                <br>
+                <div class="cd5"> How Are You
+                <i class='bx bx-check-double'></i>    
+                </div>
+                <br>
+                <div class="cd6">Iam good 
+                    what about u
+                    <i class='bx bx-check-double'></i>        
+                </div>
+                <br>
+                <div class="cd7">I am fine 
+                    <i class='bx bx-check-double'></i>     
+                </div>
+                <br>
+                <div class="cd8">Any plans after Btech
+                    <i class='bx bx-check-double'></i> 
+                </div>
+                <div class="cd2">Today    
+                </div>
+                <br>
+                <br>
+                <div class="cd10">I have to learn tech courses
+                    <i class='bx bx-check-double'></i>
+                </div>
+                <br>
+                <div class="cd11"> why did you choose this institute
+                    <i class='bx bx-check-double'></i>
+                </div>
+                <br>
+                <div class="cd12"> which institute
+                    <i class='bx bx-check-double'></i>    
+                </div>
+                <br>
+                <div class="cd13">10000 coders
+                    <i class='bx bx-check-double'></i>  
+                </div>
+                <br>
+                <div class="cd14">which courses they teach
+                    <i class='bx bx-check-double'></i> 
+                </div>
+                <br>
+                <div class="cd15">They mainly focuse on front end
+                    <i class='bx bx-check-double'></i>    
+                </div>
+                <br>
+                <div class="cd16">ok then what about backend
+                    <i class='bx bx-check-double'></i> 
+                </div>
+                <br>
+                <div class="cd17">After get perfect in frontend then they teach backend
+                    <i class='bx bx-check-double'></i>
+                </div>
+                <br>
+                 <div class="cd18">That's good Ok.I will Meet u Soon Bye
+                    <i class='bx bx-check-double'></i>
+                     </div>
+                     <br>
+                     <div class="cd19">Take Care Bye
+                        <i class='bx bx-check-double'></i>
+                     </div>
+                     <br>
+                     <div class="cd20"></div>
+            
+             
+        </div>
+   </div>
+
+       
+    
+        
+    </div>
+    
+    
+    
+</body>
+</html>
